@@ -1,4 +1,4 @@
-class Comment < ApplicationRecord
+class Comments < ApplicationRecord
     include Visible
     
     belongs_to :article
